@@ -18,19 +18,19 @@
 
 <br />
 
-`Tver-Downloader` can record the [tver.jp](https://tver.jp/) programs outside of Japan.
+`Tver-Downloader`는 [tver.jp](https://tver.jp/) 프로그램을 일본 외 지역에서 녹화할 수 있습니다.
 
-## Index
-- [Index](#index)
-- [Architecture](#architecture)
-- [Warning](#warning)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Release Files](#release-files)
+## 인덱스
+- [인덱스](#인덱스)
+- [아키텍처](#아키텍처)
+- [경고](#경고)
+- [사용 기술](#사용-기술)
+- [시작하기](#시작하기)
+  - [설치](#설치)
+  - [사용 방법](#사용-방법)
+- [릴리스 파일](#릴리스-파일)
 
-## Architecture
+## 아키텍처
 
 ```
 tver-downloader
@@ -49,45 +49,45 @@ tver-downloader
 └─ utils.py
 ```
 
-## Warning
+## 경고
 
-**Please do not use this project for commercial use. Only for your personal, non-commercial use.**
+**이 프로젝트를 상업적인 용도로 사용하지 마십시오. 개인적, 비상업적인 용도로만 사용해 주세요.**
 
-## Technologies
+## 사용 기술
 
 - `Python` : 3.12
 - `FFmpeg`
 
-## Getting Started
+## 시작하기
 
-### Installation
+### 설치
 
-- You can install it **locally:**
+- **로컬** 설치
   ```bash
   $ git clone https://github.com/devhaaana/tver-downloader.git
   $ cd tver-downloader
   ```
 
-- Make sure you have **Python** installed on your system. Then, install the **required packages** by running the following command:
+- 시스템에 **Python**이 설치되어 있는지 확인한 후, 다음 명령어를 실행하여 **필요한 패키지**를 설치하세요.
   ```bash
   $ conda create -n tver_env python=3.12
   $ conda activate tver_env
   $ pip install -r requirements.txt
   ```
 
-### Usage
+### 사용 방법
 ```bash
-$ python main.py
+python main.py
 ```
 
-![base-ui](./sample/base-ui.png)
+![base-ui](../images/sample/base-ui.png)
 
-## Release Files
+## 릴리스 파일
 
-| File                                                                                   | Description                                                       |
-| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| [tver-downloader-1.0.0.zip](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.zip)       | A*ZIP* file containing the full source code of tver-downloader v1.0.0.    |
-| [tver-downloader-1.0.0.tar.gz](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.tar.gz) | A*TAR.GZ* file containing the full source code of tver-downloader v1.0.0. |
+| 파일 | 설명 |
+| --- | --- |
+| [tver-downloader-1.0.0.zip](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.zip)       | tver-downloader v1.0.0의 전체 소스 코드가 포함된 *ZIP* 파일 |
+| [tver-downloader-1.0.0.tar.gz](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.tar.gz) | tver-downloader v1.0.0의 전체 소스 코드가 포함된 *TAR.GZ* 파일 |
 
 <br />
 
