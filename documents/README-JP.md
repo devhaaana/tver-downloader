@@ -18,7 +18,7 @@
 
 <br />
 
-`Tver-Downloader` can record the [tver.jp](https://tver.jp/) programs outside of Japan.
+`Tver-Downloader`は、日本国外でも [tver.jp](https://tver.jp/) の番組を録画できます。
 
 ## インデックス
 
