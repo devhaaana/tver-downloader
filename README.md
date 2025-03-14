@@ -80,7 +80,7 @@ tver-downloader
 $ python main.py
 ```
 
-![base-ui](./sample/base-ui.png)
+![base-ui](./images/sample/base-ui.png)
 
 ## Release Files
 
