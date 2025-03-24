@@ -185,8 +185,8 @@ class Tver_Downloader():
         print(self.sep_bar)
         try:
             print(convert_text_color(text=f'[Download] System is downloading the video...', color='blue'))
-            # process = subprocess.Popen(command_split)
-            # process.communicate()
+            process = subprocess.Popen(command_split)
+            process.communicate()
             print(convert_text_color(text=f"[Download] System successfully downloaded to '{self.save_dir}'", color='green'))
         except Exception as e:
             print(convert_text_color(text=f"[Error] {e}", color='red'))
