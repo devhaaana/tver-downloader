@@ -66,21 +66,22 @@ tver-downloader
 - **ローカル**にインストールする方法:
 
   ```bash
-  $ git clone https://github.com/devhaaana/tver-downloader.git
-  $ cd tver-downloader
+  git clone https://github.com/devhaaana/tver-downloader.git
+  cd tver-downloader
   ```
 - **Python** がシステムにインストールされていることを確認してください。次に、必要なパッケージを以下のコマンドでインストールします:
 
   ```bash
-  $ conda create -n tver_env python=3.12
-  $ conda activate tver_env
-  $ pip install -r requirements.txt
+  conda create -n tver_env python=3.12
+  conda activate tver_env
+  pip install -r requirements.txt
   ```
+- TVerのDRM追加により、日本の**VPN**または**プロキシサーバー**が必要です。
 
 ### 使用方法
 
 ```bash
-$ python main.py
+python main.py
 ```
 
 ![base-ui](../images/sample/base-ui.png)

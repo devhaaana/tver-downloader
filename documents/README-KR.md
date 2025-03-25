@@ -21,6 +21,7 @@
 `Tver-Downloader`는 [tver.jp](https://tver.jp/) 프로그램을 일본 외 지역에서 녹화할 수 있습니다.
 
 ## 인덱스
+
 - [인덱스](#인덱스)
 - [아키텍처](#아키텍처)
 - [경고](#경고)
@@ -63,19 +64,22 @@ tver-downloader
 ### 설치
 
 - **로컬** 설치
-  ```bash
-  $ git clone https://github.com/devhaaana/tver-downloader.git
-  $ cd tver-downloader
-  ```
 
-- 시스템에 **Python**이 설치되어 있는지 확인한 후, 다음 명령어를 실행하여 **필요한 패키지**를 설치하세요.
   ```bash
-  $ conda create -n tver_env python=3.12
-  $ conda activate tver_env
-  $ pip install -r requirements.txt
+  git clone https://github.com/devhaaana/tver-downloader.git
+  cd tver-downloader
   ```
+- 시스템에 **Python**이 설치되어 있는지 확인한 후, 다음 명령어를 실행하여 **필요한 패키지**를 설치하세요.
+
+  ```bash
+  conda create -n tver_env python=3.12
+  conda activate tver_env
+  pip install -r requirements.txt
+  ```
+- TVer의 DRM 추가로 인해, 일본 **VPN**이나 **프록시 서버**가 필요합니다.
 
 ### 사용 방법
+
 ```bash
 python main.py
 ```
@@ -84,15 +88,15 @@ python main.py
 
 ## 릴리스 파일
 
-| 파일 | 설명 |
-| --- | --- |
-| [tver-downloader-1.0.0.zip](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.zip)       | tver-downloader v1.0.0의 전체 소스 코드가 포함된 *ZIP* 파일 |
-| [tver-downloader-1.0.0.tar.gz](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.tar.gz) | tver-downloader v1.0.0의 전체 소스 코드가 포함된 *TAR.GZ* 파일 |
+| 파일                                                                                                      | 설명                                                            |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [tver-downloader-1.0.0.zip](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.zip)       | tver-downloader v1.0.0의 전체 소스 코드가 포함된*ZIP* 파일    |
+| [tver-downloader-1.0.0.tar.gz](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.tar.gz) | tver-downloader v1.0.0의 전체 소스 코드가 포함된*TAR.GZ* 파일 |
 
 <br />
 
 <div align="center">
-  
+
   [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevhaaana%2Ftver-downloader.git&count_bg=%23000000&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=GitHub&edge_flat=false)](https://hits.seeyoufarm.com)
 
 </div>
