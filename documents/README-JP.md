@@ -90,13 +90,7 @@ python main.py
 
 | File                                                                                                      | Description                                                    |
 | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [tver-downloader-1.0.0.zip](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.zip)       | tver-downloader v1.0.0 のソースコードを含む*ZIP* ファイル    |
-| [tver-downloader-1.0.0.tar.gz](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.0.tar.gz) | tver-downloader v1.0.0 のソースコードを含む*TAR.GZ* ファイル |
+| [tver-downloader-1.0.1.zip](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.1.zip)       | tver-downloader v1.0.1 のソースコードを含む*ZIP* ファイル    |
+| [tver-downloader-1.0.1.tar.gz](https://github.com/devhaaana/tver-downloader/archive/refs/tags/v1.0.1.tar.gz) | tver-downloader v1.0.1 のソースコードを含む*TAR.GZ* ファイル |
 
 <br />
-
-<div align="center">
-
-  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevhaaana%2Ftver-downloader.git&count_bg=%23000000&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=GitHub&edge_flat=false)](https://hits.seeyoufarm.com)
-
-</div>
