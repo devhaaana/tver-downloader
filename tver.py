@@ -6,6 +6,7 @@ import pathlib
 import urllib3
 import urllib.parse
 import subprocess
+import shutil
 
 from utils import *
 
@@ -142,7 +143,7 @@ class Tver_Downloader():
 
     def get_FFmpeg_Command(self, save_dir) -> str:
         try:
-            program_path = self.get_Program_Path('ffmpeg')
+            program_path = shutil.which("ffmpeg")
             ffmpeg_option = {
                 '--ffmpeg-location': f'"{program_path}"',
                 '-n': True,
